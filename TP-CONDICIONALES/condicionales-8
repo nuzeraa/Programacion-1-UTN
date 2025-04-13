@@ -1,0 +1,23 @@
+# Solicitar al usuario su nombre
+nombre = input("Por favor, ingresar tu nombre: ")
+
+# Solicitar al usuario que elija una opción
+print("Elige una opción:")
+print("1. Mostrar el nombre en MAYÚSCULAS")
+print("2. Mostrar el nombre en minúsculas")
+print("3. Mostrar el nombre con la primera letra mayúscula")
+
+opcion = input("Ingresar 1, 2 o 3 según la opción deseada: ")
+
+# Transformar el nombre según la opción seleccionada
+if opcion == "1":
+    nombre_transformado = nombre.upper()
+elif opcion == "2":
+    nombre_transformado = nombre.lower()
+elif opcion == "3":
+    nombre_transformado = nombre.title()
+else:
+    nombre_transformado = "Opción no válida"
+
+# Imprimir el resultado
+print("Resultado:", nombre_transformado)

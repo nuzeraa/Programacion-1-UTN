@@ -1,0 +1,6 @@
+# Solicitar la edad del usuario
+edad = int(input("Por favor, ingresa tu edad: "))
+
+# Verificar si es mayor de edad
+if edad > 18:
+    print("Es mayor de edad")
