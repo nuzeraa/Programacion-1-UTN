@@ -1,0 +1,8 @@
+# Solicitar el número al usuario
+numero = input("Ingresa un número: ")
+
+# Invertir el número usando slicing
+numero_invertido = numero[::-1]
+
+# Mostrar el resultado
+print(f"El número invertido es: {numero_invertido}")

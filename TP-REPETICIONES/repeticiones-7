@@ -1,0 +1,13 @@
+# Solicitar un número entero positivo al usuario
+numero = int(input("Introduce un número entero positivo: "))
+
+# Verificar que sea positivo
+if numero <= 0:
+    print("Por favor, introduce un número entero positivo.")
+else:
+    suma = 0
+    for i in range(0, numero):
+        suma += i
+
+    # Mostrar el resultado
+    print(f"La suma de los números entre 0 y {numero} (excluyéndolo) es: {suma}")

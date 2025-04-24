@@ -1,0 +1,16 @@
+# Puedes cambiar este valor a 100 para la versión final
+cantidad_numeros = 10
+
+suma_total = 0
+
+print(f"Ingresa {cantidad_numeros} números enteros:")
+
+for i in range(cantidad_numeros):
+    numero = int(input(f"Número {i + 1}: "))
+    suma_total += numero
+
+# Calcular la media
+media = suma_total / cantidad_numeros
+
+# Mostrar el resultado
+print(f"\nLa media de los {cantidad_numeros} números ingresados es: {media}")

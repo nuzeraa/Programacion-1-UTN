@@ -1,0 +1,8 @@
+# Solicita un número al usuario
+numero = input("Introduce un número entero: ")
+
+# Elimina el signo negativo si existe y cuenta los dígitos
+cantidad_digitos = len(numero.lstrip('-'))
+
+# Muestra el resultado
+print("El número tiene", cantidad_digitos, "dígito(s).")
